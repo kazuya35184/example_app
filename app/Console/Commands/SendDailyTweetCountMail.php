@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Mail\DailyTweetCount;
 use App\Models\User;
-use App\service\TweetService;
+use App\Service\TweetService;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Mail\Mailer;
 
