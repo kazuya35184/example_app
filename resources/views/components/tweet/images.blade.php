@@ -9,7 +9,7 @@
             <div class="w-1/6 px-2 mt-5">
                 <div class="bg-gray-400">
                     <a class="cursor-pointer">
-                        <img class="object-fit w-full" src="{{ asset('storage/images/' . $image->name) }}">
+                        <img class="object-fit w-full" src="{{ image_url($image->name) }}">
                     </a>
                 </div>
             </div>
